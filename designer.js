@@ -1,0 +1,5 @@
+﻿(function(AutoForm) {
+
+    AutoForm.containerChildrenAreSubWidgets();
+
+});
