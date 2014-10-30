@@ -1,6 +1,6 @@
 ﻿{
-    "name": "AutoForm",
-    "studioName": "AutoForm",
+    "name": "Form",
+    "studioName": "Form",
     "category": "Custom Widgets",
     "iconPath": "/icons/widget.png",
     "author": "Stéphane PUYBAREAU (4D)",
@@ -8,21 +8,18 @@
     "copyright": "(c) 2014 4D",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Puyb4D/AutoForm.git"
+        "url": "https://github.com/Puyb4D/Form.git"
     },
     "keywords": ["wakanda", "widget"],
     "engines": {"wakanda": ">= 9"},
     "license": "MIT",
     "loadDependencies": [
         {"id": "Widget_V2"},
-        {"id": "AutoFormNavigation/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FormNavigation/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FormField/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "Text/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "TextInput/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "DropDown/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "CheckBox/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "Label/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "AutoForm/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "AutoForm/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "AutoForm/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+        {"id": "Form/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Form/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Form/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }
